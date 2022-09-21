@@ -20,7 +20,7 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1609,9 +1609,6 @@ img.mfp-img {
   }
 }
 
-/*
- * 	Owl Carousel - Auto Height Plugin
- */
 .owl-height {
   transition: height 500ms ease-in-out;
 }
@@ -1681,17 +1678,6 @@ img.mfp-img {
   width: 100%;
 }
 
-/* ---------------------------------------------------------------------- 
-* Product Name: CSS3 Hexagon Buttons
-* Product URI: http://ollopage.com/html/hex-btn/
-* Author: ollopage
-* Author URI: http://ollopage.com/
-* Description: CSS3 Hexagon Buttons created with pure css3 by olloPage
-* Version: 1.0.1
-* License: GNU General Public License v2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
-* Tags: CSS3 Hexagon Buttons, social buttons, buttons, ollopage
-* ---------------------------------------------------------------------- */
 .hb {
   display: inline-block;
   position: relative;
@@ -2365,10 +2351,6 @@ a:hover {
   outline: 0;
 }
 
-/**
- *  Typography
- *
- **/
 .btn i {
   font-size: 1em;
   line-height: inherit;
@@ -2432,15 +2414,6 @@ h6,
   color: #222222;
 }
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 .clear::before,
 .clear::after {
   content: " ";
