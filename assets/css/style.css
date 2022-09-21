@@ -1476,19 +1476,11 @@ img.mfp-img {
   }
 }
 
-/**
- * Owl Carousel v2.2.0
- * Copyright 2013-2016 David Deutsch
- * Licensed under MIT (https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE)
- */
-/*
- *  Owl Carousel - Core
- */
 .owl-carousel {
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
-  /* position relative and z-index fix webkit rendering fonts issue */
+ 
   position: relative;
   z-index: 1;
 }
@@ -1576,14 +1568,11 @@ img.mfp-img {
   float: right;
 }
 
-/* No Js */
+
 .no-js .owl-carousel {
   display: block;
 }
 
-/*
- *  Owl Carousel - Animate Plugin
- */
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
@@ -1613,9 +1602,7 @@ img.mfp-img {
   transition: height 500ms ease-in-out;
 }
 
-/*
- * 	Owl Carousel - Lazy Load Plugin
- */
+
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
   transition: opacity 400ms ease;
@@ -1626,9 +1613,7 @@ img.mfp-img {
   transform-style: preserve-3d;
 }
 
-/*
- * 	Owl Carousel - Video Plugin
- */
+
 .owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
@@ -1643,7 +1628,7 @@ img.mfp-img {
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url("owl.video.play.png") no-repeat;
+  background: url(".../img/video-bg.jpg") no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
