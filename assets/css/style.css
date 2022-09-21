@@ -1628,7 +1628,7 @@ img.mfp-img {
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url(".../img/video-bg.jpg") no-repeat;
+  background: url("../img/video-bg.jpg") no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
